@@ -13,42 +13,42 @@ export class ProjectsService {
     summary: 'University Project',
     description: 'Developed to manage inventory and make reports',
     projectLink: '//www.github.com',
-    pictures: ["../../assets/images/ProImg1.jpg","../../assets/images/ProImg2.jpg","../../assets/images/ProImg3.jpg"],
+    pictures: ["../../assets/images/ProImg1.jpg","../../assets/images/ProImg2.jpg","../../assets/images/ProImg3.png"],
     tag: [Tag.JAVA , Tag.MYSQL]},
 
     {id: 1, name: 'Repair Center Management',
     summary: 'Practise Project',
     description: 'Ts Project',
     projectLink: '//www.github.com',
-    pictures: [],
+    pictures: ["../../assets/images/ProImg1.jpg","../../assets/images/ProImg2","../../assets/images/ProImg3.png"],
     tag: [Tag.HTML , Tag.CSS, Tag.JS]},
 
     {id: 2, name: 'Digital Clock',
     summary: 'Practise Project',
     description: 'Ts Project',
     projectLink: '//www.github.com',
-    pictures: [],
+    pictures: ["../../assets/images/ProImg1.jpg","../../assets/images/ProImg2","../../assets/images/ProImg3.png"],
     tag: [Tag.JS, Tag.HTML]},
 
     {id: 3, name: 'Weather App',
     summary: 'Test Description1',
     description: 'Ts Project',
     projectLink: '//www.github.com',
-    pictures: [],
+    pictures: ["../../assets/images/ProImg1.jpg","../../assets/images/ProImg2","../../assets/images/ProImg3.png"],
     tag: [Tag.JS , Tag.HTML]},
 
     {id: 4, name: 'Portfolio',
     summary: 'Test Description1',
     description: 'Ts Project',
     projectLink: '//www.github.com',
-    pictures: [],
+    pictures: ["../../assets/images/ProImg1.jpg","../../assets/images/ProImg2","../../assets/images/ProImg3.png"],
     tag: [Tag.ANGULAR , Tag.TYPESCRIPT]},
 
     {id: 5, name: 'Massage App',
     summary: 'Test Description1',
     description: 'Ts Project',
     projectLink: '//www.github.com',
-    pictures: [],
+    pictures: ["../../assets/images/ProImg1.jpg","../../assets/images/ProImg2","../../assets/images/ProImg3.png"],
     tag: [Tag.ANGULAR , Tag.NodeJS]}
 
 ]

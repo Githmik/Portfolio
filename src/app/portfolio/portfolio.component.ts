@@ -16,8 +16,15 @@ export class PortfolioComponent implements OnInit {
 
   isCollapsed: boolean = true;
   typescript: boolean = false;
+  javascript: boolean = false;
+  css: boolean = false;
+  html: boolean = false;
+  java: boolean = false;
+  mysql: boolean = false;
 
   angular: boolean = false;
+  expressjs: boolean = false;
+  nodejs: boolean = false;
   filtering: boolean = false;
   
 
@@ -34,12 +41,42 @@ export class PortfolioComponent implements OnInit {
     if(this.typescript){
       filterTag.push(Tag.TYPESCRIPT);
     }
+
+    if(this.javascript){
+      filterTag.push(Tag.JS);
+    }
+
+    if(this.css){
+      filterTag.push(Tag.CSS);
+    }
+
+    if(this.java){
+      filterTag.push(Tag.JAVA);
+    }
+
+    if(this.mysql){
+      filterTag.push(Tag.MYSQL);
+    }
+
+    if(this.html){
+      filterTag.push(Tag.HTML);
+    }
+
+
     if(this.angular){
       filterTag.push(Tag.ANGULAR);
     }
 
+    if(this.expressjs){
+      filterTag.push(Tag.EXPRESSJS);
+    }
 
-    if(this.typescript || this.angular){
+    if(this.nodejs){
+      filterTag.push(Tag.NodeJS);
+    }
+
+
+    if(this.typescript || this.angular || this.css || this.expressjs || this.java || this.javascript|| this.html || this.mysql || this.nodejs ){
       this.filtering = true;
     }
     else{
