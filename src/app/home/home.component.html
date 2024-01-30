@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+
+        <!--About Me-->
+        <div class="col-lg shadow border m-1">
+            <div class="text-center">
+                <h2>About Me</h2>
+                <img src="../../assets/images/person-sitting-laptop-cactus-coffee-vector-illustration_778180-7.avif" alt="Profile Picture" width="256" height="256" class="rounded-circle">
+                <p>I'm Githmi Kavindi. I have completed my HND in IT from SLIATE with sound knowladge of software and web development technologies. Also I have completed my six months internship at Sri Lanka Telecom PLC. I am a good
+                    team player, fast learner, communicator. </p>
+            </div>
+
+        </div>
+
+        <!--Featured Projects-->
+        <div class="col-lg shadow border m-1">
+            <div class="text-center">
+                <h2>Featured Project</h2>
+                <h4>{{featuredProject.name}}</h4>
+            </div>  
+            <carousel>
+                <div *ngFor="let picture of featuredProject.pictures">
+                    <slide><img src={{picture}} alt="Slide" style="display: block; width: 100%;"></slide>
+                </div>
+            </carousel> 
+            
+            <p class="mt-2">{{featuredProject.summary}}</p>
+            <p>Visit the Portfolio section to learn more!</p>
+        </div>
+
+    </div>
+</div>
