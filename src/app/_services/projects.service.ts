@@ -9,47 +9,47 @@ export class ProjectsService {
 
   projects: Project[] = [
 
-    {id: 0, name: 'Sample Project1',
+    {id: 0, name: 'Inventory Management System',
+    summary: 'University Project',
+    description: 'Developed to manage inventory and make reports',
+    projectLink: '//www.github.com',
+    pictures: ["../../assets/images/ProImg1.jpg","../../assets/images/ProImg2.jpg","../../assets/images/ProImg3.jpg"],
+    tag: [Tag.JAVA , Tag.MYSQL]},
+
+    {id: 1, name: 'Repair Center Management',
+    summary: 'Practise Project',
+    description: 'Ts Project',
+    projectLink: '//www.github.com',
+    pictures: [],
+    tag: [Tag.HTML , Tag.CSS, Tag.JS]},
+
+    {id: 2, name: 'Digital Clock',
+    summary: 'Practise Project',
+    description: 'Ts Project',
+    projectLink: '//www.github.com',
+    pictures: [],
+    tag: [Tag.JS, Tag.HTML]},
+
+    {id: 3, name: 'Weather App',
     summary: 'Test Description1',
     description: 'Ts Project',
     projectLink: '//www.github.com',
-    pictures: ["../../assets/images/ProImg1.jpg","../../assets/images/ProImg2.jpg","../../assets/images/ProImg3.jpg"],
-    tag: [Tag.ANGULAR , Tag.REACT]},
+    pictures: [],
+    tag: [Tag.JS , Tag.HTML]},
 
-    {id: 1, name: 'Sample Project2',
+    {id: 4, name: 'Portfolio',
     summary: 'Test Description1',
     description: 'Ts Project',
     projectLink: '//www.github.com',
     pictures: [],
     tag: [Tag.ANGULAR , Tag.TYPESCRIPT]},
 
-    {id: 2, name: 'Sample Project3',
+    {id: 5, name: 'Massage App',
     summary: 'Test Description1',
     description: 'Ts Project',
     projectLink: '//www.github.com',
     pictures: [],
-    tag: [Tag.REACT]},
-
-    {id: 3, name: 'Sample Project4',
-    summary: 'Test Description1',
-    description: 'Ts Project',
-    projectLink: '//www.github.com',
-    pictures: [],
-    tag: [Tag.ANGULAR , Tag.REACT]},
-
-    {id: 4, name: 'Sample Project5',
-    summary: 'Test Description1',
-    description: 'Ts Project',
-    projectLink: '//www.github.com',
-    pictures: [],
-    tag: [Tag.ANGULAR , Tag.REACT]},
-
-    {id: 5, name: 'Sample Project6',
-    summary: 'Test Description1',
-    description: 'Ts Project',
-    projectLink: '//www.github.com',
-    pictures: [],
-    tag: [Tag.ANGULAR , Tag.REACT]}
+    tag: [Tag.ANGULAR , Tag.NodeJS]}
 
 ]
 

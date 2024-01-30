@@ -1,10 +1,13 @@
 export class Tag{
     static readonly ANGULAR = new Tag('Angular' , 'red');
     static readonly TYPESCRIPT = new Tag('TypeScrip', 'blue');
-    static readonly REACT = new Tag('React' , 'orange');
-    static readonly NodeJs = new Tag('NodeJs' , 'yellow');
+    static readonly EXPRESSJS = new Tag('React' , 'orange');
+    static readonly NodeJS = new Tag('NodeJs' , 'yellow');
     static readonly HTML = new Tag('HTML' , 'green');
     static readonly JS = new Tag('JS' , 'red');
+    static readonly CSS = new Tag('CSS', 'light-green');
+    static readonly JAVA = new Tag('Java', 'light-blue');
+    static readonly MYSQL = new Tag('MySQL', 'purple');
     
 
 
